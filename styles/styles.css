@@ -29,7 +29,7 @@ body {
   padding: 25px;
   background-color: var(--light);
   width: 100%;
-  max-width: 350px;
+  max-width: 310px;
   height: auto;
   animation: aparecer 1s ease;
 }
