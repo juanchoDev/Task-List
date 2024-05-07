@@ -86,6 +86,7 @@ const order = () => {
   const done = [];
   const toDo = [];
   tasksContainer.childNodes.forEach((el) => {
+    el.classList.add("aparecer");
     el.classList.contains("done") ? done.push(el) : toDo.push(el);
   });
   return [...toDo, ...done];
