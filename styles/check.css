@@ -32,6 +32,10 @@ img {
   animation: confundido 3s infinite;
 }
 
+.aparecer {
+  animation: aparecer 1s ease;
+}
+
 .globo {
   position: absolute;
   top: 40px;
